@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size : 16px;
+    font-weight: normal;
+    color: #5e4426;
+    background: #dbfffb;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.info {
+    margin-bottom: 15px;
+    display: flex;
+}
+@media (max-width: 650px){
+    .info-text {
+        display: block;
+        text-align: center;
+    }
+}
+.info-text {
+    margin-left: 40px;
+}
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+
+a {
+    color: #5e4424;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: darkslateblue;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+.card {
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+
+}
+
+.card h3 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #ffdb9f;
+    padding: 10px 10px;
+    color:#5e4426;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn.hover {
+    opacity: 0.6;
+
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.link-list {
+    list-style: none;
+
+}
+
+.link-list li {
+    margin-bottom: 10px;
+}
+
+.table { 
+    width: 100%;
+}
+.table td{
+    padding-bottom: 10px;
+}
+.table td:nth-child(2), 
+.table td:nth-child(3){
+    color:#a5855a
+}
+.bg-purple {
+    background: #ffdbfe;
+}
+
+.bg-peach {
+    background: #ffebc4;
+}
+
+.bg-yellow {
+    background: #fff7d1;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 13px;
+    color: #dbfffb;
+}
+
+.form-row {
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.form-row .form-group:first-child {
+    margin-right: 15px;
+}
+.form-row .form-group {
+    width: 50%;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #5e4424;
+    color: #5e4424;
+    padding: 10px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+@media (max-width: 650px){
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+}
